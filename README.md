@@ -28,3 +28,7 @@ Install the git cli -> winget install --id GitHub.cli OR upgrade -> winget upgra
 5. Add all the files : `git add .`
 6. Commit the files : `git commit -m "<commit_message>"`
 7. Push the files to origin : `git push -u origin master`
+
+============== Other Commands for the Git ==============
+
+1. To create or switch to any branch : `git switch -b <branch_name>`
