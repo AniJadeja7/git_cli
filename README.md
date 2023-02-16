@@ -28,6 +28,7 @@ Install the git cli -> winget install --id GitHub.cli OR upgrade -> winget upgra
 5. Add all the files : `git add .`
 6. Commit the files : `git commit -m "<commit_message>"`
 7. Push the files to origin : `git push -u origin master`
+8. discard all the changes and move back to latest commit : `git reset --hard HEAD`
 
 ============== To create a new branch and push to that branch ==============
 
