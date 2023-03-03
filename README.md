@@ -36,3 +36,7 @@ Install the git cli -> winget install --id GitHub.cli OR upgrade -> winget upgra
 2. To switch to the branch : `git switch <branch_name>`
 3. Add all the necessary files and then commit
 4. to push to the new branch : `git push --set-upstream origin <branch_name>`
+
+============================== Git Log Commands =============================
+
+1. To view only the last commit : `git log --name-status HEAD^..HEAD`
