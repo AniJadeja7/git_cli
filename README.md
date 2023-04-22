@@ -35,8 +35,14 @@ Install the git cli -> winget install --id GitHub.cli OR upgrade -> winget upgra
 1. To create a new branch : `git branch <brnach_name>`
 2. To switch to the branch : `git switch <branch_name>`
 3. Add all the necessary files and then commit
-4. to push to the new branch : `git push --set-upstream origin <branch_name>`
+4. To push to the new branch : `git push --set-upstream origin <branch_name>`
 
 ============================== Git Log Commands =============================
 
 1. To view only the last commit : `git log --name-status HEAD^..HEAD`
+2. To see all the commit logs : git log
+3. To see most 5 recent commits : git log -5 
+4. To see the logs from specific date : git log --since=2019-01-01
+5. To see the logs till specigic date : git log --until=2019-01-01
+6. To see the logs from specific author : git log --author="author name"
+7. To search a string in logs : git log --grep="Init" 
