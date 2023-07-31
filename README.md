@@ -18,7 +18,7 @@ Install the git cli -> winget install --id GitHub.cli OR upgrade -> winget upgra
     ONCE SET , IT CANNOT BE CHANGED WITHOUT RE-AUTHING IT.... 
 
 2. create a repo from cli : `gh repo create <repo_name> --[flags]`
-        ## Flags could be either private or public. For example --private or --public
+     `## Flags could be either private or public. For example --private or --public`
 4. initialize the local directory with master branch : `git init -b master`
 5. Add a remote repository : `git remote add origin git@github.com:<username>/<repo_name>.git`
     
