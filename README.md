@@ -18,17 +18,18 @@ Install the git cli -> winget install --id GitHub.cli OR upgrade -> winget upgra
     ONCE SET , IT CANNOT BE CHANGED WITHOUT RE-AUTHING IT.... 
 
 2. create a repo from cli : `gh repo create <repo_name> --[flags]`
-3. initialize the local directory with master branch : `git init -b master`
-4. Add a remote repository : `git remote add origin git@github.com:<username>/<repo_name>.git`
+   ## Flags could be either private or public. For example --private or --public
+4. initialize the local directory with master branch : `git init -b master`
+5. Add a remote repository : `git remote add origin git@github.com:<username>/<repo_name>.git`
     
     Here the git@... address is an SSH key, if you have chosen HTTPS then you command will look like
 
     `git remote add origin https://github.com/<username>/<repo_name>.git`
 
-5. Add all the files : `git add .`
-6. Commit the files : `git commit -m "<commit_message>"`
-7. Push the files to origin : `git push -u origin master`
-8. discard all the changes and move back to latest commit : `git reset --hard HEAD`
+6. Add all the files : `git add .`
+7. Commit the files : `git commit -m "<commit_message>"`
+8. Push the files to origin : `git push -u origin master`
+9. discard all the changes and move back to latest commit : `git reset --hard HEAD`
 
 ============== To create a new branch and push to that branch ==============
 
